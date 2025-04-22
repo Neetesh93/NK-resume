@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neetesh Kumar - Resume</title>
+  <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+  <div class="resume-container">
+    <header class="resume-header">
+      <img src="./images/IMG_20250206_234347.jpg" alt="Neetesh Kumar" class="profile-img">
+      <div>
+        <h1>Neetesh Kumar</h1>
+        <ul>
+        <li><p>BBA in Digital Business and Entrepreneurship</p></li>
+        <li><p>neeteshkumarshakya.9.3@gmail.com</p></li> <li><p>| +91 6307082389</p></li>
+        <nav class="LinkedIn"><p><a href="https://www.linkedin.com/in/neetesh-kumar-823325314/">My LinkedIn Profile</a></p></nav>
+        
+        
+      </div>
+    </header>
+
+    <section>
+      <h2>Profile</h2>
+      <p>I am a creative and enthusiastic BBA student, currently pursuing a degree in Digital Business and Entrepreneurship at IIM Bangalore. I have a strong interest in music and enjoy creating my own tunes. I completed my schooling from Jawahar Navodaya Vidyalaya, Jhansi. I'm passionate about learning how digital business works and turning ideas into real-world solutions.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Communication</li>
+        <li>Entrepreneurship</li>
+        <li>Web Design (HTML/CSS)</li>
+        <li>Content Creation</li>
+        <li>Business Strategy</li>
+        <li>Music Creation</li>
+      </ul>
+    </section>
+
+    
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li><h3>Bachelor of Business Administration</h3></li>
+        <p class="date">2024 - 2027</p>
+        <p>IIM Banglore | Digital Business & Entrepreneurship</p>
+
+        <li><h3>Schooling</h3></li>
+        <p class="date"> 2024 Passout</p>
+        <p>Jawahar Navodaya Vidyalaya, Jhansi</p>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Achievements</h2>
+      <ul>
+
+        <li>School CCA Captain</li>
+        <li>National in Group Singing</li>
+        <li>Two regional in Solo Singing</li>
+        <li>First prize in Debate competition</li>
+  
+      </ul>
+    </section>
+
+    <section>
+
+      <h2>Experience</h2>
+      <ul>
+
+        <li><h3>Founder – Grocery Delivery Startup</h3></li>
+        
+        <p>Started a successful grocery delivery business with zero investment. I manage everything from orders to delivery and marketing.</p>
+
+        <li><h3>Business Projects</h3></li>
+        <p>Completed two business projects during my studies, gaining practical experience in planning and teamwork.</p>
+
+        <li><h3>School Program Leader – JNV Jhansi</h3></li>
+        <p>Led and managed various programs and events at school, improving my leadership and communication skills.</p>
+        
+      </ul>
+
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <ul>
+        <li><p>Email: neeteshkumarshakya.9.3@gmail.com</p></li>
+        <li><p>Phone: +91 6307082389</p></li>
+        <li><p>LinkedIn: <a href="https://www.linkedin.com/in/neetesh-kumar-823325314/">https://www.linkedin.com/in/neetesh-kumar-823325314/</a></p></li>
+        <li><p>Address: PTPP Parichha Colony, Jhansi, Uttar Pradesh (India)</p></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
+/* Reset and Base Styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: #473333;
+    line-height: 1.6;
+  }
+  
+  /* Resume Container */
+  .resume-container {
+    max-width: 950px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 1s ease-in;
+  }
+  
+  /* Header Section */
+  .resume-header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #eee;
+    padding-bottom: 20px;
+  }
+  
+  .profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 20%;
+    object-fit: cover;
+    border: 4px solid #6a11cb;
+    box-shadow: 0 0 0 5px #fff, 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    color: #6a11cb;
+  }
+
+ 
+  .resume-header p {
+    margin: 4px 0;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  /* Section Headings */
+  h2 {
+    font-size: 1.8rem;
+    color: #48079e;
+    margin-top: 40px;
+    border-left: 6px solid #6a11cb;
+    padding-left: 12px;
+  }
+  
+  h3 {
+    margin-top: 15px;
+    color: #9f5dbe;
+    font-size: 1.2rem;
+  }
+  
+  .date {
+    color: #888;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+  }
+  
+  /* Skills Grid */
+  .skills {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+  }
+  
+  .skills li {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    color: #222;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+
+  
+  .LinkedIn{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+
+    
+
+  }
+
+  nav p {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    color: #222;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+
+
+
+  .LinkedIn :hover{
+    transform: translateY(-5px);
+  }
+
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
