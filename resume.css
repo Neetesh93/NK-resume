@@ -1,0 +1,131 @@
+/* Reset and Base Styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: #473333;
+    line-height: 1.6;
+  }
+  
+  /* Resume Container */
+  .resume-container {
+    max-width: 950px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    animation: fadeIn 1s ease-in;
+  }
+  
+  /* Header Section */
+  .resume-header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #eee;
+    padding-bottom: 20px;
+  }
+  
+  .profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 20%;
+    object-fit: cover;
+    border: 4px solid #6a11cb;
+    box-shadow: 0 0 0 5px #fff, 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    color: #6a11cb;
+  }
+
+ 
+  .resume-header p {
+    margin: 4px 0;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  /* Section Headings */
+  h2 {
+    font-size: 1.8rem;
+    color: #48079e;
+    margin-top: 40px;
+    border-left: 6px solid #6a11cb;
+    padding-left: 12px;
+  }
+  
+  h3 {
+    margin-top: 15px;
+    color: #9f5dbe;
+    font-size: 1.2rem;
+  }
+  
+  .date {
+    color: #888;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+  }
+  
+  /* Skills Grid */
+  .skills {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+  }
+  
+  .skills li {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    color: #222;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+
+  
+  .LinkedIn{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+
+    
+
+  }
+
+  nav p {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    color: #222;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+
+
+
+  .LinkedIn :hover{
+    transform: translateY(-5px);
+  }
+
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
